@@ -1,1 +1,2 @@
-@ts = -> "#{new Date} | "
+@log = (message) ->
+  console.log "#{new Date} | #{message}"
